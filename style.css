@@ -1,0 +1,12 @@
+table {
+    height: 30%;
+    width: 10%;
+}
+
+thead th {
+    background: #ff69bb;
+}
+
+th, td {
+    font-size: 20px;
+}
