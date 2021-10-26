@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <form>
+
+    <head>
+        <title>FILL IN A FORM!</title>
+    </head>
+
+    <header>
         <h1>Hello</h1>
+    </header>
+
+  <body>
+    <form action="./submission.html">
         <label for="name">Name</label>
-        <input id="name" type="text" name="name">
+        <input id="name" type="text" name="name" required>
 
         </br>
 
         <span>Sad</span>
-        <input type="range" min="0" max="10" step="0.1"
+        <input type="range" name="feelings" id="feelings" min="0" max="10" step="0.1"
         <span>Happy</span>
+
+        </br>
+
+        <input id="pink" name="colour" type="radio" value="pink">
+        <label for="pink">Pink</label>
+
+        <input id="yellow" name="colour" type="radio" value="yellow">
+        <label for="yellow">Yellow</label>
+
+        </br>
+
+        <label>What animal do  you like?</label>
+        <select id="animal" name="animal">
+            <option value ="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="pig">Pig</option>
+        </select>
+
+        </br>
+
+        <input type="submit" value="Submit">
+    </form>
 
     </br>
 
-        <input id="pink" name="colour" type="checkbox" value="pink">
-        <label for="pink">Pink</label>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./table.html">Table</a>
+    </nav>
 
-        <input id="yellow" name="colour" type="checkbox" value="yellow">
-        <label for="yellow">Yellow</label>
-
-    </form>
-
-</br>
-    <a href="./index.html">Home</a>
-    <a href="./test.html">Test Page</a>
   </body>
-
 
 </html>
